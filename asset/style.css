@@ -125,6 +125,36 @@ svg{
   width: max-content;
   font-size: 15px;
 }
+.container-legendc{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.container-card2{
+  border-radius: 10px;
+  margin-left:30px;
+  width: 350px;
+  border: red 1px solid;
+  height: 0px;
+}
+.container-card3{
+  border-radius: 10px;
+  margin-left:30px;
+  width: 350px;
+  border: red 1px solid;
+  height: 0px;
+}
+.container-legendb{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
 #fonctionnement
 {
   background-color: white;
