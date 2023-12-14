@@ -68,6 +68,7 @@ a {
 }
 .content-button-fonctionnement{
   margin-bottom: 20px;
+ 
 
 }
 .btn-fonctionnement{
@@ -107,6 +108,8 @@ svg{
   justify-content: space-between;
   align-items: center;
   width: 300px;
+  display: block;
+  font-style: roboto;
 }
 .container-card img{
   width: 350px;
@@ -154,6 +157,26 @@ svg{
   justify-content: space-between;
   align-items: center;
   width: 300px;
+}
+.footer{
+ 
+	bottom:0;
+	left:0;
+	box-shadow:  10px #555; /*ombre*/
+	width:139%;
+	color: white;
+  background: #353535;
+  display: grid;
+  position:fixed;
+  align-self: end;
+  font-family: roboto;
+  
+ 
+
+}
+.titre{
+  background-color: white;
+  font-family: Shrikhand;
 }
 #fonctionnement
 {
