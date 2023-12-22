@@ -6,7 +6,7 @@
 h1 {
   text-align: center;
   font-weight:bold;
-  height: 58px;
+ /* height: 58px;*/
 }
 
 
@@ -58,7 +58,7 @@ a {
   font-weight: bold;
   padding: 7px;
   width:10px;
-  height: 5px;
+  /*height: 5px;*/
   font-size: 15px;
   position: relative;
   left: 20px;
@@ -99,7 +99,7 @@ svg{
   margin-left:30px;
   width: 350px;
   border: red 1px solid;
-  height: 0px;
+ /* height: 0px;*/
 }
 .container-legend{
   display: flex;
@@ -109,12 +109,16 @@ svg{
   align-items: center;
   width: 300px;
   display: block;
-  font-style: roboto;
+  font-weight: 300;
 }
 .container-card img{
   width: 350px;
-  height: 200px;
-  border-radius:10px 10px 0px 0px;
+  /*height: 200px;*/
+  border-radius:15px;
+  height: 250px;
+  top: -50px;
+  left: 10px;
+  
 }
 .nouveau{
   background-color:  #99E2D0;
@@ -141,14 +145,14 @@ svg{
   margin-left:30px;
   width: 350px;
   border: red 1px solid;
-  height: 0px;
+  /*height: 0px;*/
 }
 .container-card3{
   border-radius: 10px;
   margin-left:30px;
   width: 350px;
   border: red 1px solid;
-  height: 0px;
+  /*height: 0px;*/
 }
 .container-legendb{
   display: flex;
@@ -163,13 +167,17 @@ svg{
 	bottom:0;
 	left:0;
 	box-shadow:  10px #555; /*ombre*/
-	width:139%;
+	weight:500;
 	color: white;
   background: #353535;
   display: grid;
-  position:fixed;
   align-self: end;
-  font-family: roboto;
+  font: roboto;
+  background: #353535;
+  width: 190px;
+  size:16px;
+  line-height: 18,75px;
+
   
  
 
@@ -177,12 +185,15 @@ svg{
 .titre{
   background-color: white;
   font-family: Shrikhand;
+  style:italic;
+  size:18px;
+  line-height: 18px;
 }
 #fonctionnement
 {
   background-color: white;
   width: 100%;
-  height: 150px;
+  /*height: 150px;*/
   font-family: roboto;
   font-weight: bold;
  
@@ -204,7 +215,7 @@ svg{
   font-style: roboto;
   font-weight: 600;
   width: 150px;
-  height: 48px;
+ /* height: 48px;*/
   top: 600px
   
   
@@ -239,7 +250,7 @@ svg{
   left: 0;
  }
 .lanoteenchantee{
-  display: flexbox;
+  
 }
 
 
