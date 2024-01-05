@@ -1,4 +1,4 @@
-*{padding: 0px; margin: 0px;}
+*{padding: 0px; margin: 0px;font-family: roboto;}
 
 
 @media(max-width: 720px) {
@@ -44,12 +44,15 @@ a {
   border-radius: 25px;
   border: 0px;
   cursor: pointer;
-  width: 60%;
+  width: 80%;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 500;
-  padding: 10px;
+  padding: 15px;
   margin: 20px;
+  box-shadow: 0px 4px 10px 0px #00000040;
+
+
 }
 
 .index{
@@ -65,11 +68,16 @@ a {
   background-color: #9356DC;
   color: white;
   top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 9px;
+  
 }
+
 .content-button-fonctionnement{
   margin-bottom: 20px;
  
-
 }
 .btn-fonctionnement{
 padding: 30px;
@@ -87,19 +95,32 @@ gap: 15px;
 display: flex;
 margin: auto;
 
+
 }
 svg{
   color: gray;
+  
+  
 }
 .grey{
   color: grey;
 }
 .container-card{
   border-radius: 10px;
-  margin-left:30px;
   width: 350px;
   border: red 1px solid;
  /* height: 0px;*/
+ margin: 3%;
+ 
+
+}
+.card-contain-bottom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+ 
 }
 .container-legend{
   display: flex;
@@ -110,6 +131,8 @@ svg{
   width: 300px;
   display: block;
   font-weight: 300;
+  
+  
 }
 .container-card img{
   width: 350px;
@@ -118,6 +141,7 @@ svg{
   height: 250px;
   top: -50px;
   left: 10px;
+
   
 }
 .nouveau{
@@ -174,13 +198,40 @@ svg{
   align-self: end;
   font: roboto;
   background: #353535;
-  width: 190px;
   size:16px;
-  line-height: 18,75px;
-
+  line-height: 18,75px; 
+  padding-left:20px;
+  padding-top:25px ;
+  padding-bottom: 25px;
+  margin-top: 80px;
+  
   
  
 
+}
+.svg-coeur{
+ 
+
+}
+footer p{
+  margin-bottom: 5px;
+  
+}
+footer h4{
+  margin-bottom: 5px;
+}
+footer img{
+  width: 30%;
+  filter: brightness(0) invert(1);
+  margin-bottom: 15px;
+}
+.icone{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+ 
 }
 .titre{
   background-color: white;
@@ -226,6 +277,7 @@ svg{
   font-family: roboto;
   padding: 40px;
   background: #F6F6F6;
+  
 
 
  }
@@ -233,6 +285,7 @@ svg{
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 15px;
+  
   
   
 }
